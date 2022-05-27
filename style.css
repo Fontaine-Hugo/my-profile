@@ -1,0 +1,71 @@
+body {
+	text-align: center;
+	font-family: "Segoe UI", sans-serif;
+	background-color: #1e81b0;
+	color: #e28743;
+}
+
+h1, h2, h3 {
+	color: #eab676;
+	font-size: 16px;
+  	font-family: "Helvetica", sans-serif; 
+  	letter-spacing: 3px;
+  	line-height: 1.2;
+}
+
+a {
+  color: #eab676;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}
+
+
+.list-inline {
+	list-style: none; /* kill the bullet points */
+	padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+	display: inline; /* change list item behavior to inline */
+	padding: 0px 20px; /* add som left/right padding between list items */
+}
+
+.img-cirlce {
+ 	border-radius: 50%;
+}
+
+.button {
+	text-decoration: none;
+	background-color: #1e81b0;
+	color: #abdbe3;
+	padding: 3px 4px 3px 4px;
+	border-top: 1px solid #eab676;
+	border-right: 1px solid #abdbe3;
+	border-bottom: 1px solid #abdbe3;
+	border-left: 1px solid #eab676;
+}
+
+.container { 
+	 width: 700px; /* set the width of your container */
+	 margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+.card-white {
+	background-color: #063970;
+	border: 1px solid #eab676;
+	box-shadow: rgba(0, 0, 0, 0.1);
+	padding: 3px;
+	transition: color 0.3s ;
+}
+
+.card-white:hover {
+	color: #abdbe3;
+}
+
+.sailing {
+	font-weight: 700;
+	font-size: 200;
+}
